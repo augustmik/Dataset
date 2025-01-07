@@ -2,7 +2,7 @@
   <!-- Beispiel-Bundle eDiGA-Verordnung -->
   <id value="evdga-bundle-unfall" />
   <meta>
-    <profile value="https://fhir.kbv.de/StructureDefinition/KBV_PR_EVDGA_Bundle|1.1" />
+    <profile value="https://fhir.kbv.de/StructureDefinition/KBV_PR_EVDGA_Bundle|1.1.0" />
   </meta>
   <identifier>
     <system value="https://gematik.de/fhir/erp/NamingSystem/GEM_ERP_NS_PrescriptionId" />
@@ -16,7 +16,7 @@
       <Composition xmlns="http://hl7.org/fhir">
         <id value="55eb2cd5-27f0-46ef-87d1-1ffc30e85fd9" />
         <meta>
-          <profile value="https://fhir.kbv.de/StructureDefinition/KBV_PR_EVDGA_Composition|1.1" />
+          <profile value="https://fhir.kbv.de/StructureDefinition/KBV_PR_EVDGA_Composition|1.1.0" />
         </meta>
         <extension url="https://fhir.kbv.de/StructureDefinition/KBV_EX_FOR_Legal_basis">
           <valueCoding>
@@ -83,7 +83,7 @@
       <DeviceRequest xmlns="http://hl7.org/fhir">
         <id value="a1533e28-4631-4afa-b5e6-f233fad87f53" />
         <meta>
-          <profile value="https://fhir.kbv.de/StructureDefinition/KBV_PR_EVDGA_HealthAppRequest|1.1" />
+          <profile value="https://fhir.kbv.de/StructureDefinition/KBV_PR_EVDGA_HealthAppRequest|1.1.0" />
         </meta>
         <extension url="https://fhir.kbv.de/StructureDefinition/KBV_EX_EVDGA_SER">
           <valueBoolean value="false" />
